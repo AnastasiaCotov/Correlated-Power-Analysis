@@ -5,8 +5,11 @@ The project consists of GPU implementation of CPA – correlation power analysis
 
 # The Strategy
 🡺 Build a matrix of Estimated Power Traces using the hamming distance between plaintext and guessed key values
+
 🡺 Calculate the Pearson correlation coefficient between the modelled and actual power consumption. Do this for every data point in the traces
+
 🡺 Analyse the correlation results
+
 🡺 Save the results in 16 CSV files, each of them corresponds to 1 byte of the secret key
 
 # Conclusions
